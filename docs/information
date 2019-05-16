@@ -1,0 +1,14 @@
+1.Validation = https://www.djamware.com/post/5bf94d9a80aca747f4b9ce9f/secure-nodejs-expressjs-and-postgresql-api-using-passportjs
+2. setup : https://scotch.io/tutorials/getting-started-with-node-express-and-postgres-using-sequelize
+3. Run script : npm run start:dev
+4. Migration : sequelize db:migrate
+5. postgres : sudo -u postgres psql
+
+\? list all the commands
+\l list databases
+\conninfo display information about current connection
+\c [DBNAME] connect to new database, e.g., \c template1
+\dt list tables of the public schema
+\dt <schema-name>.* list tables of certain schema, e.g., \dt public.*
+\dt *.* list tables of all schemas
+
